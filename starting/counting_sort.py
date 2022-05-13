@@ -15,11 +15,10 @@ import sys
 
 def countingSort(arr):
     # Write your code here
-    n = len(arr)
     freqarr = []
     for i in range (0,100):
         freqarr.append(0)
-    for i in range (0,n):
+    for i in range (len(arr):
         freqarr[arr[i]]+=1
     return(freqarr)
 
